@@ -670,7 +670,7 @@ Press any key to exit...
 
 #### Solution
 
-The full solution can be found [here](https://github.com/drminnaar/grpc-guide/tree/master/examples/messaging).
+The full solution can be found [here](https://github.com/drminnaar/grpc-guide/tree/master/Examples/Messaging).
 
 ### Calculator Example
 
@@ -683,7 +683,7 @@ Now it's your turn. Create a gRPC Calculator service that provides the following
 
 #### Solution
 
-The full solution can be found [here](https://github.com/drminnaar/grpc-guide/tree/master/examples/calculator).
+The full solution can be found [here](https://github.com/drminnaar/grpc-guide/tree/master/Examples/Calculator).
 
 ##### Proto File
 
@@ -908,5 +908,5 @@ gRPC for the win :trophy:
 [Ubuntu 18.04 WSL]: https://docs.microsoft.com/en-us/windows/wsl/install-manual
 [vscode-proto3]: https://github.com/zxh0/vscode-proto3
 [vscode-proto3-ext]: https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
-[Messenger]: https://github.com/drminnaar/grpc-guide/tree/master/examples/messaging
-[Calculator]: https://github.com/drminnaar/grpc-guide/tree/master/examples/calculator
+[Messenger]: https://github.com/drminnaar/grpc-guide/tree/master/Examples/Messaging
+[Calculator]: https://github.com/drminnaar/grpc-guide/tree/master/Examples/Calculator
