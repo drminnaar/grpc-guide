@@ -1,0 +1,27 @@
+syntax = "proto3";
+package calculators;
+option csharp_namespace = "Calculators";
+
+message OperationRequest {
+    repeated double operands = 1;
+}
+
+message OperationResponse {
+    double result = 1;
+}
+
+message DivisionRequest {
+    double dividend = 1;
+    double divisor = 2;
+}
+
+message DivisionResponse {
+    double result = 1;
+}
+
+service Calculator {
+    rpc Add (OperationRequest) returns (OperationResponse);
+    rpc Subtract (OperationRequest) returns (OperationResponse);
+    rpc Multiply (OperationRequest) returns (OperationResponse);
+    rpc Divide (DivisionRequest) returns (DivisionResponse);
+}

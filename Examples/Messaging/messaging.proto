@@ -1,0 +1,15 @@
+syntax = "proto3";
+package messaging;
+option csharp_namespace = "Messaging";
+
+message MessageRequest {
+    string message = 1;
+}
+
+message MessageResponse {
+    string message = 1;
+}
+
+service Messenger {
+    rpc Message (MessageRequest) returns (MessageResponse);
+}
