@@ -192,13 +192,13 @@ message Meeting {
 
 ```md
 # For Python
-protoc -I=. --python_out=. ./meetings.proto
+protoc -I . --python_out=. ./meetings.proto
 
 # For Node/Javascript
-protoc -I=. --js_out=. ./meetings.proto
+protoc -I . --js_out=. ./meetings.proto
 
 # For C#
-protoc -I=. --csharp_out=. ./meetings.proto
+protoc -I . --csharp_out=. ./meetings.proto
 ```
 
 The final step is to use the generated code with your programming language of choice. See more tutorials here:
